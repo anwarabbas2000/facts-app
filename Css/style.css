@@ -1,0 +1,8 @@
+#numbercontainer,
+#yearcontainer{
+    display: none;
+}
+.number-container,
+.year-container{
+    min-width: 23rem;
+}

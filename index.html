@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/icon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./Css/style.css">
+    <title>Facts</title>
+</head>
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Facts</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="number-container container bg-primary w-50 d-flex flex-column align-items-center text-light p-3 mt-3">
+          <div class="container mb-3">
+            <p class="h3 ">Number Facts</p>
+            <p>Enter a number and get a random fact</p>
+            <input type="number" class="form-control form-control-lg" placeholder="Enter a number" id="numberinput">
+          </div>
+          <div class="container" id="numbercontainer">
+              <p class="h6">Number fact</p>
+              <p id="numberfact">3 is the number of </p>
+          </div>
+
+          <!-- Year facts -->
+      </div>
+      <div class="year-container container bg-primary w-50 d-flex flex-column align-items-center text-light p-3 mt-3">
+          <div class="container mb-3">
+            <p class="h3 ">Year Facts</p>
+            <p>Enter an year and get a random fact</p>
+            <input type="number" class="form-control form-control-lg" placeholder="Enter a number" id="yearinput">
+          </div>
+          <div class="container" id="yearcontainer">
+              <p class="h6">Year fact</p>
+              <p id="yearfact">3 is the number of </p>
+          </div>
+      </div>
+
+
+    <script src="./Js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+</body>
+</html>
