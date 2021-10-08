@@ -6,7 +6,7 @@ numberinput.addEventListener("input", () => {
 
   // With Ajax
   // let request =new XMLHttpRequest();
-  // request.open('GET' , `http://numbersapi.com/${numberfacttext}`)
+  // request.open('GET' , `https://numbersapi.com/${numberfacttext}`)
   // request.onload = function(){
   //   if (this.status = '200' && numberfacttext != '') {
   //     let response = this.responseText;
@@ -19,7 +19,7 @@ numberinput.addEventListener("input", () => {
   // ()request.send
 
   // With Fetch api***
-  fetch(`http://numbersapi.com/${numberfacttext}`)
+  fetch(`https://numbersapi.com/${numberfacttext}`)
     .then((response) => response.text())
     .then((data) => {
       if (numberfacttext != "") {
@@ -38,7 +38,7 @@ let yearcontainer = document.getElementById("yearcontainer");
 yearinput.addEventListener("input", () => {
   let yearfacttext = yearinput.value;
   //   let request = new XMLHttpRequest();
-  //   request.open("GET", `http://numbersapi.com/${yearfacttext}/year`);
+  //   request.open("GET", `https://numbersapi.com/${yearfacttext}/year`);
   //   request.onload = function () {
   //       if (this.status = '200' && yearfacttext != '') {
   //           let data = this.responseText;
@@ -51,7 +51,7 @@ yearinput.addEventListener("input", () => {
   //   request.send();
 
   //   Fetch api
-  fetch(`http://numbersapi.com/${yearfacttext}/year`)
+  fetch(`https://numbersapi.com/${yearfacttext}/year`)
     .then((response) => response.text())
     .then((data) => {
      if (yearfacttext != '') {
